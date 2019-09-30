@@ -13,7 +13,7 @@ before:
     title: Welcome!
     body: welcome.md
 steps:
-  - title: Introduction and Review
+  - title: Introduction and Review of Containerization
     description: Reviewing the architecture and Containerizing an Application
     event: issues.assigned
     link: '{{ repoUrl }}'
