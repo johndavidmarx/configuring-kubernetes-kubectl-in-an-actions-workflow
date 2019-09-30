@@ -13,6 +13,12 @@ before:
     title: Welcome!
     body: welcome.md
 steps:
+  - title: Introduction and Review
+    description: Reviewing the architecture and Containerizing an Application
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
   - title: Encrypting the KUBECONFIG file
     description: How to use GPG to encrypt a Kubernetes Config File
     event: issues.assigned
